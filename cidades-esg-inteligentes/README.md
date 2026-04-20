@@ -207,6 +207,13 @@ CMD ["node", "src/server.js"]
 
 ## 🖼️ Prints do funcionamento
 
+![alt text](public/image.png)
+![alt text](public/image-1.png)
+![alt text](public/image-2.png)
+![alt text](public/image-3.png)
+
+![alt text](public/image-4.png)
+
 ### Pipeline CI/CD executando
 ```
 ✅ Job: Build e Testes
