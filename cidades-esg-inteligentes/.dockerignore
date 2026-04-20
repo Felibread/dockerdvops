@@ -1,0 +1,12 @@
+node_modules
+.env
+coverage
+*.log
+.git
+.github
+junit.xml
+README.md
+docker-compose*.yml
+nginx
+monitoring
+scripts

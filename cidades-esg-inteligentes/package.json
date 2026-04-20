@@ -1,0 +1,40 @@
+{
+  "name": "cidades-esg-inteligentes",
+  "version": "1.0.0",
+  "description": "API para monitoramento de indicadores ESG em cidades inteligentes",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --coverage --forceExit",
+    "test:ci": "jest --coverage --forceExit --ci --reporters=default --reporters=jest-junit",
+    "lint": "eslint src/ --ext .js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "jest-junit": "^16.0.0",
+    "nodemon": "^3.0.3",
+    "supertest": "^6.3.4"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/server.js"
+    ],
+    "coverageReporters": ["text", "lcov", "html"]
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["esg", "cidades", "sustentabilidade", "api", "devops"],
+  "author": "Equipe ESG Inteligente",
+  "license": "MIT"
+}
