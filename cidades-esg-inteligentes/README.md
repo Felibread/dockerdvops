@@ -32,7 +32,7 @@
 
 **1. Clone o repositório**
 ```bash
-git clone https://github.com/seu-usuario/cidades-esg-inteligentes.git
+git clone https://github.com/Felibread/dockerdvops.git
 cd cidades-esg-inteligentes
 ```
 
